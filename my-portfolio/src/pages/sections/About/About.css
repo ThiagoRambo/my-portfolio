@@ -1,6 +1,6 @@
 .container-about {
   display: flex;
-  margin: 200px 25% 0 25%;
+  margin: 25% 25% 0 25%; /*pode ser usados 400px*/
   margin-bottom: 150px;
 }
 
@@ -42,18 +42,37 @@
 .container-cv h1 {
   font-size: 25px;
   margin-bottom: 8px;
+  color: #FFF;
 }
 
 .container-cv p {
   font-size: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  color: #ffffffbb;
 }
 
 .btn-cv {
   border-radius: 25px;
-  padding: 20px 20px;
+  padding: 14px;
   color: #000;
   border: none;
   cursor: pointer;
   font-size: 15px;
+  font-weight: bold;
+}
+
+.btn-cv:hover {
+  animation: shrinkAndGrow 0.4s ease forwards; 
+}
+
+@keyframes shrinkAndGrow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1.05);
+  }
 }
