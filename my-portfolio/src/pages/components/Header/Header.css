@@ -1,0 +1,24 @@
+.container-header {
+  padding: 20px;
+}
+
+.content-ul {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  list-style: none;
+}
+
+.content-ul a {
+  padding: 10px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.content-ul a:hover {
+  background-color: rgba(136, 136, 136, 0.199);
+  transition: 0.5s;
+}
