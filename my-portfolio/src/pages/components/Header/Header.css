@@ -22,3 +22,21 @@
   background-color: rgba(136, 136, 136, 0.199);
   transition: 0.5s;
 }
+
+
+/* --------------------------------------------------------------- */
+
+
+@media (max-width: 768px) {
+  .content-ul {
+    align-items: center;
+    gap: 20px;
+  }
+
+  .content-ul a {
+    font-size: 18px; 
+    padding: 12px 20px;
+    width: 80%; 
+    text-align: center;
+  }
+}

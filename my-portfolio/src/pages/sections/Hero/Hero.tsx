@@ -1,10 +1,10 @@
 import './Hero.css';
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaWhatsapp  } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaWhatsapp  } from "react-icons/fa"; // Font Awesome 5
 
 export default function Hero(){
   return(
 
-    <div>
+    <div className='container-box1'>
       <div  className='container-apresentacao'>
         <h1 className='nome'>Thiago Rambo.</h1>
         <h1 className='iam'>I'm a Software Engineer</h1>

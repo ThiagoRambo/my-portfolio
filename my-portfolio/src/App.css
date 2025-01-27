@@ -6,11 +6,18 @@
 
 body {
   font-family: sans-serif;
-  background: linear-gradient(#000, #121212, #122b46);
+  background: linear-gradient(#000, #122b46);
 }
+
+/* body::-webkit-scrollbar {
+  display: none;
+} */
 
 .app {
   display: flex;
   height: 100vh;
 }
+
+
+
 
