@@ -9,7 +9,7 @@
 .container-about-geral {
   display: flex;
   width: 85%;
-  padding: 80px;
+  padding: 60px;
   flex-direction: column;
   opacity: 0;
   background: linear-gradient(135deg, rgb(255, 255, 255, 0.850), rgba(255, 255, 255, 0.750), rgba(255, 255, 255, 0.350));
@@ -118,7 +118,7 @@
 .container-skills h1 {
   font-size: 40px;
   font-weight: bold;
-  margin-top: 80px;
+  margin: 50px 0px 20px 0px;
 }
 
 .ul-skills {

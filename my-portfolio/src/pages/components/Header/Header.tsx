@@ -10,7 +10,6 @@ export default function Header() {
           <ul className='content-ul'>
 
             <Link to="about" smooth={true} duration={900}>About</Link>
-            <Link to="skills" smooth={true} duration={900}>Skills</Link>
             <Link to="projects" smooth={true} duration={900}>Projects</Link>
 
           </ul>

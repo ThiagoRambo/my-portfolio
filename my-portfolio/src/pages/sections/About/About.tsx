@@ -44,7 +44,7 @@ useLayoutEffect(() => {
       trigger: ".nav-skills",
       scrub: false,
       markers: false,
-      start: "top 680px",
+      start: "top 730px",
       end: "bottom 850px",
     }
   })
