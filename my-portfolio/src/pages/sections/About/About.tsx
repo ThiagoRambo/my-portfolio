@@ -6,7 +6,6 @@ import './About.css'
 import { FaReact, FaNodeJs, FaHtml5, FaCss3  } from "react-icons/fa"; // Font Awesome 5
 import { SiTypescript, SiTailwindcss, SiJavascript  } from "react-icons/si"; // Simple Icons
 
-
 export default function About() {
 
   const timeLine = useRef<gsap.core.Timeline | null>(null);
