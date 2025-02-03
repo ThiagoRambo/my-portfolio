@@ -75,6 +75,9 @@
 }
 
 .btn-cv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 25px;
   padding: 14px;
   color: #000;
