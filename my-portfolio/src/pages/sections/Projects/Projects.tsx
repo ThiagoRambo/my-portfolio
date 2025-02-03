@@ -62,7 +62,7 @@ export default function Projects() {
           </div>
           <div className="card-back">
             <h2>LH LinkTree</h2>
-            <p></p>
+            <p>Link Tree personalizado feito para empresa de Luís Eduardo Magalhães - BA</p>
             <div className='project-container-links'>
               <a href="https://github.com/ThiagoRambo/LHLinkTree" target="_blank" className="project-link">Ver no Github</a>
               <a href="https://lh-link-tree.vercel.app/" target="_blank" className="project-link">Ver projeto</a>

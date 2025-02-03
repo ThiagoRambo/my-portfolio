@@ -108,42 +108,42 @@ useLayoutEffect(() => {
             <ul className='ul-skills' >
 
               <li className='li-skills'>
-              <span><FaReact className='icon-skills'/></span>
+              <span><FaReact id='icon-react' className='icon-skills'/></span>
               <p>ReactJS</p>
               </li>
 
               <li className='li-skills'>
-              <span><FaNodeJs className='icon-skills'/></span>
+              <span><FaNodeJs id='icon-node' className='icon-skills'/></span>
               <p>NodeJS</p>
               </li>
 
               <li className='li-skills'>
-              <span><SiTypescript className='icon-skills'/></span>
+              <span><SiTypescript id='icon-typescript' className='icon-skills'/></span>
               <p>TypeScript</p>
               </li>
 
               <li className='li-skills'>
-              <span><FaReact className='icon-skills'/></span>
+              <span><FaReact id='icon-react' className='icon-skills'/></span>
               <p>React Native</p>
               </li>
 
               <li className='li-skills'>
-              <span><SiTailwindcss className='icon-skills'/></span>
+              <span><SiTailwindcss id='icon-tailwind' className='icon-skills'/></span>
               <p>Tailwind</p>
               </li>
               
               <li className='li-skills'>
-              <span><FaHtml5 className='icon-skills'/></span>
+              <span><FaHtml5 id='icon-html5' className='icon-skills'/></span>
               <p>Html5</p>
               </li>
 
               <li className='li-skills'>
-              <span><FaCss3 className='icon-skills'/></span>
+              <span><FaCss3 id='icon-css3' className='icon-skills'/></span>
               <p>Css3</p>
               </li>
 
               <li className='li-skills'>
-              <span><SiJavascript className='icon-skills'/></span>
+              <span><SiJavascript id='icon-javascript' className='icon-skills'/></span>
               <p>Javascript</p>
               </li>
             </ul>

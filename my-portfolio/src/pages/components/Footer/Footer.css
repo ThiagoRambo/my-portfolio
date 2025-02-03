@@ -1,6 +1,7 @@
 .footer {
-  background-color: #111; /* Fundo escuro */
-  color: #fff; /* Texto branco */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.411);
+  background-color: #121212;
+  color: #bbb;
   padding: 20px 0;
   text-align: center;
   width: 100%;
@@ -12,18 +13,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .footer-links {
   list-style: none;
   display: flex;
-  gap: 15px;
+  gap: 35px;
   padding: 0;
 }
 
 .footer-links li {
   display: inline;
+  cursor: pointer;
 }
 
 .footer-links a {
@@ -34,4 +36,68 @@
 
 .footer-links a:hover {
   color: #fff;
+}
+
+.ul-icons-footer {
+  background-color: #ffffff38;
+  border-radius: 25px;
+  padding: 10px 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.a-icons-footer {
+  margin: 0px 20px;
+}
+
+.icon-footer {
+  color: #FFF;
+  font-size: 25px;
+  margin-bottom: -5px;
+  transition: 0.5s;
+}
+
+.icon-footer:hover {
+  transition: 0.5s;
+  animation: shrinkAndGrowLink 0.5s ease forwards; 
+}
+
+#icon-github:hover {
+  color: black;
+}
+
+#icon-linkedin:hover {
+  color: #0e76a8;
+}
+
+#icon-instagram {
+  border-radius: 50%;
+}
+
+#icon-instagram:hover {
+  background: linear-gradient(45deg, #FCAF45, #FD1D1D, #E1306C, #833AB4, #405DE6);
+}
+
+#icon-email:hover {
+  color: #db4a39;
+}
+
+#icon-whatsapp:hover {
+  color: #00bb2d;
+}
+
+@media (max-width: 768px) {
+
+  .footer {
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+  .a-icons-footer {
+    margin: 0px 15px;
+  }
+  
+  .icon-footer {
+    font-size: 20px;
+  }
+
 }

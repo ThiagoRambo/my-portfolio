@@ -7,17 +7,18 @@
 body {
   font-family: sans-serif;
   background: linear-gradient(#000, #122b46);
+  overflow-x: hidden;
 }
-
-/* body::-webkit-scrollbar {
-  display: none;
-} */
 
 .app {
   display: flex;
-  height: 100vh;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
 }
 
 
-
-
+header, .about, .projects, footer {
+  position: relative;
+  z-index: 2;
+}

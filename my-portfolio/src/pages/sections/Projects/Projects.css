@@ -9,6 +9,7 @@
 /* ---  HEADER PROJECTS  --------------------------------------------- * */
 
 .container-projects-header h1 {
+  text-shadow: 0px 0px 15px #57575757;
   font-size: 40px;
   margin-bottom: 40px;
   font-weight: bold;
@@ -49,6 +50,7 @@
   flex-direction: column;
   transition: transform 0.5s ease-in-out;
   text-shadow: #ffffff7e 0px 0px 10px;
+  transition: 0.3s;
 }
 
 .card-img-1 {
@@ -71,7 +73,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.904);
+  background: rgba(0, 0, 0, 0.767);
   color: white;
   display: flex;
   justify-content: center;
@@ -97,6 +99,18 @@
   transform: translateY(0);
 }
 
+.project-card:hover .card-front{
+  color: #ffffff0e;
+  transition: 0.8s;
+}
+
+.project-container-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 .project-link {
   padding: 50px;
   text-decoration: none;
@@ -110,10 +124,47 @@
 }
 
 
-
+  /* ---  MEDIA QUERY --------------------------------------------- * */
 
 @media (max-width: 768px) {
 
+  .container-box3 {
+    padding: 20px 0px;
+  }
+
+  .container-projects-header h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
   
+  .container-projects-list {
+    gap: 20px;
+    width: 90%;
+  }
+  
+  .project-card {
+    width: 350px;
+    height: 250px;
+  }
+  
+  .card-front {
+    font-size: 18px;
+  }
+  
+  .card-back {
+    gap: 10px;
+  }
+  
+  .card-back h2 {
+    font-size: 25px;
+  }
+  
+  .card-back p {
+    font-size: 15px;
+  }
+  
+  .project-link {
+    font-size: 14px;
+  }
 
 }
