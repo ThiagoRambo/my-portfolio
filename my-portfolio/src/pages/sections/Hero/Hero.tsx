@@ -6,11 +6,14 @@ export default function Hero(){
 
     <div id="hero" className='container-box1'>
       <div  className='container-apresentacao'>
-        <h1 className='nome'>Thiago Rambo.</h1>
-        <h1 className="iam">Sou um Engenheiro de Software</h1>
-        <p className='descricao'>Sou um Desenvolvedor FullStack. Uso a tecnologia para transformar e escalar o seu negócio com tecnologia.</p>
+        <h1 data-aos="zoom-out" className='nome'>Thiago Rambo.</h1>
+        <h1 data-aos="zoom-out" className="iam">Sou um Engenheiro de Software</h1>
+        <p data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="200"
+     data-aos-offset="0" className='descricao'>Sou um Desenvolvedor FullStack. Uso a tecnologia para transformar e escalar o seu negócio com tecnologia.</p>
 
-        <nav className='nav-icons'>
+        <nav data-aos="zoom-in-up" data-aos-delay="300" className='nav-icons'>
           <ul className='ul-icons'>
 
             <a className='a-icons' target='_blank' href="https://github.com/ThiagoRambo">

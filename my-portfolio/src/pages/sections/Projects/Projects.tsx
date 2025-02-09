@@ -11,7 +11,7 @@ export default function Projects() {
       <div className="container-projects-list">
 
         {/* Primeiro Card */}
-        <div className="project-card">
+        <div data-aos="zoom-in" data-aos-delay="100" className="project-card">
           <div className="card-front card-img-1">
             <h2>PilotTrack</h2>
           </div>
@@ -26,7 +26,7 @@ export default function Projects() {
         </div>
 
         {/* Segundo Card */}
-        <div className="project-card">
+        <div data-aos="zoom-in" data-aos-delay="200" className="project-card">
           <div className="card-front card-img-2">
             <h2>Barbershop System</h2>
           </div>
@@ -41,7 +41,7 @@ export default function Projects() {
         </div>
 
         {/* Terceiro Card */}
-        <div className="project-card">
+        <div data-aos="zoom-in" data-aos-delay="300"className="project-card">
           <div className="card-front card-img-3">
             <h2>Hamburgueria</h2>
           </div>
@@ -56,7 +56,7 @@ export default function Projects() {
         </div>
 
         {/* Quarto Card */}
-        <div className="project-card">
+        <div data-aos="zoom-in" data-aos-delay="400" className="project-card">
           <div className="card-front card-img-4">
             <h2>LH LinkTree</h2>
           </div>
